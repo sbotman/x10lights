@@ -40,8 +40,8 @@
 		006B7EC21C18DA8D00CD1DF2 = {
 			isa = PBXGroup;
 			children = (
-				006B7ECD1C18DA8D00CD1DF2 /* x10lights */,
 				006B7ECC1C18DA8D00CD1DF2 /* Products */,
+				006B7ECD1C18DA8D00CD1DF2 /* x10lights */,
 			);
 			sourceTree = "<group>";
 		};
@@ -253,6 +253,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = x10lights/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.botman.x10lights;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -264,6 +265,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = x10lights/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.botman.x10lights;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,6 +291,7 @@
 				006B7EE21C18DA8D00CD1DF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
